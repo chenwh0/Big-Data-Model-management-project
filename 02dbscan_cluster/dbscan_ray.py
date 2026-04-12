@@ -5,7 +5,7 @@ from sklearn.cluster import DBSCAN
 ray.init()
 
 # Read dataset
-data = ray.data.read_parquet("/home/ubuntu/project_phase2/quality_indicators/")
+data = ray.data.read_parquet("/home/ubuntu/project_phase2/01filtered_parquets/")
 
 # Convert to full Pandas DataFrame (GLOBAL)
 dataframe = data.to_pandas()
@@ -28,4 +28,4 @@ dbscan_model = DBSCAN(eps=epsilon, min_samples=min_samples, metric="haversine")
 dataframe["cluster"] = dbscan_model.fit_predict(coords_rad)
 
 # Save back using Ray (optional)
-ray.data.from_pandas(dataframe).write_parquet("/home/ubuntu/project_phase2/clustered/")
+ray.data.from_pandas(dataframe).write_parquet("/home/ubuntu/project_phase2/02dbscan_cluster_parquets/")

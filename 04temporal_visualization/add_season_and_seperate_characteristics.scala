@@ -1,4 +1,4 @@
-val clustered = spark.read.parquet("/project_phase2/clustered/")
+val clustered = spark.read.parquet("/project_phase2/02dbscan_cluster_parquets/")
 val dataSeasons = clustered.withColumn(
 "monthDay", date_format(col("ActivityStartDate"), "MMdd").cast("int"))
 .withColumn("seasonID",

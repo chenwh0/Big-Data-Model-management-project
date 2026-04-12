@@ -1,4 +1,4 @@
-val clustered = spark.read.parquet("/project_phase2/clustered/")
+val clustered = spark.read.parquet("/project_phase2/02dbscan_cluster_parquets/")
 clustered.select(countDistinct(col("cluster")).as("unique_count")).collect()(0).getLong(0)
 res4: Long = 156 // total 156 clusters
 clustered.createOrReplaceTempView("table") 
@@ -10,5 +10,5 @@ val top10clusters = clustered.filter(col("cluster").isin(top10: _*)).select(col(
 
 top10clusters.show(5)
 top10clusters.printSchema()
-top10clusters.coalesce(1).write.mode("overwrite").parquet("/project_phase2/top10clusters")
+top10clusters.coalesce(1).write.mode("overwrite").parquet("/project_phase2/03top10_cluster_visualization")
 
