@@ -1,5 +1,10 @@
 # Big-Data-Model-management-project
 by Jack Hamilton and Wen-Hsin Chen
+
+[<img width="2580" height="1440" alt="image" src="https://github.com/user-attachments/assets/065a6104-626c-4e8c-a2d1-7638fb17607d" />](https://github.com/chenwh0/Big-Data-Model-management-project/blob/main/PRESENTATION_Missouri_seasonal_Water_quality_indicators_prediction_using_distributed_cloud_infrastructure.pdf)
+
+[<img width="1764" height="1400" alt="image" src="https://github.com/user-attachments/assets/3c0cff6b-3d5f-4291-b9ff-3773d73bc253" />](https://github.com/chenwh0/Big-Data-Model-management-project/blob/main/REPORT_Missouri_seasonal_Water_quality_indicators_prediction_using_distributed_cloud_infrastructure.pdf)
+
 ## Phase 1
 
 ✅ Extract all hashtags & URLs in Tweets - Written in Python
@@ -18,8 +23,3 @@ by Jack Hamilton and Wen-Hsin Chen
 ## Phase 3
 * ✅ Present poster
 * ✅ Present presentation
-
-[<img width="2580" height="1440" alt="image" src="https://github.com/user-attachments/assets/065a6104-626c-4e8c-a2d1-7638fb17607d" />](https://github.com/chenwh0/Big-Data-Model-management-project/blob/main/PRESENTATION_Missouri_seasonal_Water_quality_indicators_prediction_using_distributed_cloud_infrastructure.pdf)
-
-[<img width="1764" height="1400" alt="image" src="https://github.com/user-attachments/assets/3c0cff6b-3d5f-4291-b9ff-3773d73bc253" />](https://github.com/chenwh0/Big-Data-Model-management-project/blob/main/REPORT_Missouri_seasonal_Water_quality_indicators_prediction_using_distributed_cloud_infrastructure.pdf)
-
